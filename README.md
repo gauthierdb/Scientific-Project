@@ -1,6 +1,8 @@
 # Scientific-Project
 
-Ik stel voor dat elke week de woordvoerder het excel bestandje download en aanpast + terug upload  
+Asif: "Ik heb juist gechekt. De individuele wekelijkse verslagen moeten in PDF vorm staan. Voor de volgende keer dus PDF gebruiken. Ik zet al de ingestuurde verslagen om naar PDF en terug naar GitHub.
+
+Ik stel voor dat elke week de woordvoerder het excel bestandje download en aanpast + terug upload  
 
 Verder zijn de mappen voor de bestanden vanzelfsprekend
 
