@@ -15,3 +15,6 @@ Noteerder: (?)
 Wij gebruiken de Chip AI ESP8266MOD op de AMICA NodeMCU spinoff board.      
 Informatie over de chip: http://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf    
 Informatie over de board https://roboindia.com/tutorials/nodemcu-amica-esp8266-board-installation
+
+Belangrijk: 
+https://tttapa.github.io/ESP8266/Chap08%20-%20mDNS.html
