@@ -18,3 +18,4 @@ Informatie over de board https://roboindia.com/tutorials/nodemcu-amica-esp8266-b
 
 Belangrijk: 
 https://tttapa.github.io/ESP8266/Chap08%20-%20mDNS.html
+
