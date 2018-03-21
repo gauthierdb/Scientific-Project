@@ -17,5 +17,7 @@ Informatie over de chip: http://www.kloppenborg.net/images/blog/esp8266/esp8266-
 Informatie over de board https://roboindia.com/tutorials/nodemcu-amica-esp8266-board-installation
 
 Belangrijk: 
-https://tttapa.github.io/ESP8266/Chap08%20-%20mDNS.html
+https://tttapa.github.io/ESP8266/Chap08%20-%20mDNS.html   
 
+Deze website beschrijft analoge en digitale signalen in/uit de pins. Dus ook hoe PWM werkt enzo. Kzou aanraden da iedereen da is doorneemt.
+https://arduino-esp8266.readthedocs.io/en/latest/reference.html#digital-io
