@@ -1,6 +1,6 @@
 # Scientific-Project
 
-# Asif: "Ik heb juist gechekt. De individuele wekelijkse verslagen moeten in PDF vorm staan. Voor de volgende keer dus PDF gebruiken. Ik zet al de ingestuurde verslagen om naar PDF en terug naar GitHub. En ook de links naar deze nieuwe bestanden in Excel.
+#Please convert all the Dutch text in every Preparation or Weekly Report into English, specifically in the Headers and Footers, like Date, Pagina into Page, wetenschappelijk structuur, ...
 
 
 //EXTRA//
