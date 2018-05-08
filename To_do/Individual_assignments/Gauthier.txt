@@ -1,0 +1,24 @@
+Report of 28/02/2018
+Use preparation template
+Convert to PDF (use Save as PDF instead of print as PDF for the table of contents to work properly)
+
+Report of 14/03/2018
+There are two documents of the same name (microcontrollers), make it one if possible (It is for the hyperlinks in Excel)
+Extra document in your name nodeMCU (I am not sure where to put it)	
+(table of contents needed)
+Convert to PDF (use Save as PDF instead of print as PDF for the table of contents to work properly)
+Delete the last blank page
+
+Report of 21/03/2018
+Make table of contents
+Convert to PDF (use Save as PDF instead of print as PDF for the table of contents to work properly)
+
+Report of 28/03/2018
+use table of contents
+Convert to PDF (use Save as PDF instead of print as PDF for the table of contents to work properly)
+
+Report of 18/04/2018
+Report missing
+
+Report of 25/04/2018
+use table of contents
