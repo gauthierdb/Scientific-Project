@@ -22,3 +22,21 @@ Report missing
 
 Report of 25/04/2018
 use table of contents
+
+Report of 02/05/2018
+remove text "Preparations ..." in begin of document
+use table of contents
+remove the last blank page
+
+Report of 09/05/2018
+remove text "Prepartion of ..." in begin of document
+use table of contents
+update any missing info under "Results and Methods section". Delete it if there is nothing to add
+
+Weekly report of 25/04/2018
+Remove text "Ontwerpverslag van de ..." say for example weekly report of Xth meeting
+delete the extra text "(date, president, ...)"
+maybe edit 14u00 to 14:00, april to April etc
+
+Writer of weekly report of 28/02/2018!!
+Use template and convert to PDF!!

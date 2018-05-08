@@ -22,3 +22,14 @@ Convert to PDF (use Save as PDF instead of print as PDF for the table of content
 Report of 25/04/2018
 report missing
 
+Report of 02/05/2018
+Remove "preparation of ..." in begin of report
+use table of contents
+Remove the reference list section if there are none
+Convert to PDF (use Save as PDF instead of print as PDF for the table of contents to work properly)
+
+Report of 09/05/2018
+yet to make
+
+Writer of weekly report of 28/02/2018!!
+Use template and convert to PDF!!
