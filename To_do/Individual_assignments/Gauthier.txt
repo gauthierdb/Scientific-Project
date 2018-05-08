@@ -1,3 +1,8 @@
+Edit: All done
+1 thing: Table of contents only needed when large files. As my files aren't large i have not added them. 
+ps. IDK if report of 25/04 was the 6th or 7th report
+
+
 Report of 28/02/2018
 Use preparation template
 Convert to PDF (use Save as PDF instead of print as PDF for the table of contents to work properly)
