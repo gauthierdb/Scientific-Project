@@ -4,6 +4,8 @@
 
 # Avoid renaming the preparation or weekly report because the hyperlinks in Excel would stop working
 
+# Setting the hyperlinks is only useful once all the docs are corrected (converted to PDF, ...), So it has to be delayed untill all the preparations and reports are in their definitive form
+
 # The weekly report template has been translated into English. It is in the main folder
 
 
