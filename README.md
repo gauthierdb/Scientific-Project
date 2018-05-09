@@ -1,5 +1,7 @@
 # Scientific-Project 
 
+# Open the To_do folder and follow instructions in the readme file there
+
 # Please convert all the Dutch text in every Preparation or Weekly Report into English, specifically in the Headers and Footers, like Date, Pagina into Page, wetenschappelijk structuur, ...
 
 # Avoid renaming the preparation or weekly report because the hyperlinks in Excel would stop working
