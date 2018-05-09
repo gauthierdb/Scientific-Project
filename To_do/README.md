@@ -1,1 +1,1 @@
-# Please open the file with your name and correct the things written in there, upload all the corrected files in Main\Corrections\FolderWithYourName
+# Please open the file with your name under folder "Individua_assignments" and correct the things written in there, upload all the corrected files in Main\Corrections\FolderWithYourName
