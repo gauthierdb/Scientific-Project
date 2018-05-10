@@ -1,3 +1,5 @@
+// Comment regel 61 tot 79 en regel 149, 150 eruit als je geen server hebt 
+
 // Things to do or test -> All marked with "TO DO" in code
 // 
 // * Check if distance works when defined as int instead of long
