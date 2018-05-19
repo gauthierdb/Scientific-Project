@@ -1,5 +1,15 @@
 # Scientific-Project 
 
+%% EDIT 19/05 %% 
+
+A Final TO DO-list has been added
+
+
+
+
+
+
+
 1.Open the To_do folder and follow instructions in the readme file there
 
 2.Meeting reports of 7, 14 and 28 March are missing. Please upload them in the reports folder
