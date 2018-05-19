@@ -5,11 +5,8 @@
 A Final TO DO-list has been added as a .txt file 
 
 Be sure to complete your part for the given deadline !!! 
-% 
-%
-%
-%
-%
+
+%% /Edit 19/05 %%
 
 1.Open the To_do folder and follow instructions in the readme file there
 
