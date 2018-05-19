@@ -2,13 +2,14 @@
 
 %% EDIT 19/05 %% 
 
-A Final TO DO-list has been added
+A Final TO DO-list has been added as a .txt file 
 
-
-
-
-
-
+Be sure to complete your part for the given deadline !!! 
+% 
+%
+%
+%
+%
 
 1.Open the To_do folder and follow instructions in the readme file there
 
