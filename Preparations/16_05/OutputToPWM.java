@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ascii_2nd_version;
 
 import static ascii_2nd_version.Ascii_2nd_version.inFile;
@@ -49,16 +45,22 @@ public class OutputToPWM extends Thread {
         if (t==null){
             t = new Thread(this,threadname);
             t.start();
-            System.out.println("thread "+threadname+ " is gestart.");
+            //System.out.println("thread "+threadname+ " is gestart.");
         }
     }
     
+    
+    /**
+     * 
+     * @param folder: the folder to watch for
+     * @param suffix: the file to watch for modification changes
+     */
     public static void watchFolder(String folder, String suffix) {
         
         try {
             Path path = Paths.get(folder);
             WatchService watchService = path.getFileSystem().newWatchService();
-            path.register(watchService,StandardWatchEventKinds.ENTRY_MODIFY/*,StandardWatchEventKinds.ENTRY_CREATE,StandardWatchEventKinds.ENTRY_DELETE*/);
+            path.register(watchService,StandardWatchEventKinds.ENTRY_MODIFY,StandardWatchEventKinds.ENTRY_CREATE,StandardWatchEventKinds.ENTRY_DELETE);
             
             convert();
             WatchKey key;
@@ -79,21 +81,26 @@ public class OutputToPWM extends Thread {
 
     }
     
+    
+    /**
+     * prints every line in the output file onto screen
+     */
     public static void convert()
     {
+        //load the file to read
         dis = inFile(inputFile);
         try {
             if (dis !=null)
             { 
                 String currentLine;
                 int currentLineNr=0;
+                //skip the lines which are already dealt with
                 while ( ( currentLine=dis.readLine()) != null){
                     if ((currentLineNr++) <= doneLines){
                         continue;
                     }
                     doneLines++;
                     int dump = Integer.valueOf(currentLine.trim());
-                    //System.out.println("echo \""+dump+"\" | nc -u 192.168.0.4 3000");
                     System.out.println(dump);
                     
                 }

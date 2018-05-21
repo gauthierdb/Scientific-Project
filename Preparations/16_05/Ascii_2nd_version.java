@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ascii_2nd_version;
 
 import java.io.BufferedInputStream;
@@ -35,18 +30,23 @@ public class Ascii_2nd_version {
     static String outputFile = "output.txt";
     static int doneBytes=0;
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
+        
+        //make a thread which converts the bytes to Ascii
         InputToOutput thread1 = new InputToOutput("nodeMCU bytes naar Ascii");
         thread1.start();
-        OutputToPWM thread2 = new OutputToPWM("Ascii to PWM");
+        //make a thread which prints the converted bytes to screen
+        OutputToPWM thread2 = new OutputToPWM("Ascii to screen");
         thread2.start();
         
         
     }
     
+    /**
+     * 
+     * @filename The name of the file to read
+     * @return the reader
+     */
     public static DataInputStream inFile(String filename)
     {
         DataInputStream dis = null;
@@ -63,8 +63,8 @@ public class Ascii_2nd_version {
     
     /**
      * 
-     * @param filename
-     * @return 
+     * @filename the name of the file to write to
+     * @return the writer
      */
     public static PrintWriter outFile (String filename)
     {
@@ -79,11 +79,9 @@ public class Ascii_2nd_version {
     }
     
     /**
-     * watches a folder for changes
-     * @param folder The folder to watch
-     * @param suffix The file to watch
-     * @param in the inputstream
-     * @param out the outputstream
+     * watches a folder for changes of modification of file
+     * @folder folder The folder to watch
+     * @suffix the file to watch
      */
     public static void watchFolder(String folder, String suffix) {
         
@@ -112,27 +110,40 @@ public class Ascii_2nd_version {
     }
     
     /**
-     * 
-     * @param dis
-     * @param pw
+     * It converts every byte in the reader to its Ascii equivalent
+     * and writes it onto the output file
      */
     public static void convert()
     {
+        //load the input file
         DataInputStream dis = inFile(inputFile);
+        //load the output file
         PrintWriter pw = outFile(outputFile);
         try {
             if (dis !=null && pw !=null)
             {
-                int temp=dis.available()-doneBytes;
+                double remainingBytes=dis.available()-doneBytes;
+                
+                //skip the bytes which are already converted
                 int dump = dis.skipBytes(doneBytes);
-                for ( int i=0 ; i<temp ; i++){
-                    doneBytes++;
-                    byte toWriteByte = dis.readByte();
-                    if (toWriteByte != 0 && toWriteByte !=10 && toWriteByte != 13 && toWriteByte !=32){
-                        int toWriteByteAscii = toWriteByte;
-                        pw.write(String.valueOf(toWriteByteAscii));pw.write("\n");
+                
+                //take the first byte and multiple by 9 and add the second byte
+                for ( int i=0 ; i< (Math.floor(remainingBytes/2))  ; i++){
+                    doneBytes=doneBytes+2;
+                    byte firstByte  = dis.readByte();
+                    byte secondByte  = dis.readByte();
+                    //the if can be used to filter out special bytes like
+                    //a space which is 32 in Ascii
+                    if (true){
+                        int firstByteAscii = firstByte;
+                        int secondByteAscii= secondByte;
+                        firstByteAscii=firstByteAscii*9+secondByteAscii;
+                        pw.write(String.valueOf(firstByteAscii));pw.write("\n");
                     } 
                 }
+                    
+                
+                
             }
             dis.close();
             pw.close();

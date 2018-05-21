@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ascii_2nd_version;
 
 import static ascii_2nd_version.Ascii_2nd_version.watchFolder;
@@ -34,7 +29,7 @@ public class InputToOutput extends Thread
         if (t==null){
             t = new Thread(this,threadname);
             t.start();
-            System.out.println("thread "+threadname+ " is gestart.");
+            //System.out.println("thread "+threadname+ " is gestart.");
         }
     }
 }
