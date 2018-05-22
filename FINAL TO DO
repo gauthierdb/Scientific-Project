@@ -24,25 +24,26 @@ First the high priority tasks
 %% vvvvvvvvvvvvvvvvvvvvvvvv %% 
 1) The report of the meeting on wednesday 16/05 needs to be added 
     + updating excel file for that meeting.
-  -> Ali?
+  -> Asif was reporter 
+  -> Ali was CEO
 
 2) Report on how we tried to fix the wheels (in final report or just a normal report?) 
-  -> Satish?
+  -> Satish
 
-3) Report on the udp packet parsing (errors you encountered, how you fixed it) + Proof it works (in final report or just a normal report?)
+3) UDP choice in the final report (google docs) -> why UDP, reliability, how, ...
+  -> Daniel   
+  
+4) Add to final report(google doc) a report of the final demonstration, what it does, what it should do, errors, picture, ... 
+   Also explain how the packet parsing works. 
   -> Asif
   
-4) UDP choice in the final report (google docs) -> why UDP, reliability, how, ...
-  -> Asif / Daniel ? 
-  
-5) A report on how the entire ubuntu server + java code works (separate report)
-  -> Asif
-  
-6) A report on how the entire software code works (separate report)
-  -> Gauthier 
-  
-7) Add to final report(google doc) a report of the final demonstration, what it does, what it should do, errors, picture, ... 
+5) Presentation! 
+ -> Everyone 
+ 
+6) Make google docs file pretty, add conclusion, references, .... 
   -> ?? 
   
-8) Presentation! 
- -> ??? 
+7) Make final zip file with working excel refs & poster, presentation, ... 
+  -> Gauthier
+  
+ DONE
